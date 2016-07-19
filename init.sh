@@ -9,6 +9,7 @@ usb_modeswitch -v 12d1 -p 1f01 --verbose -J
 
 echo "Running lsusb to show all connected USB PID/VID pairs"
 lsusb
+wvdialconf /etc/wvdial.conf
 
  ./wvdial_auto_reconnect.sh &
 
