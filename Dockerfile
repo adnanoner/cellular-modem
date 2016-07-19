@@ -4,7 +4,7 @@ ENV INITSYSTEM on
 
 RUN echo "resolvconf resolvconf/linkify-resolvconf boolean false" | debconf-set-selections
 
-RUN apt-get update && apt-get install -y usbutils usb-modeswitch usb-modeswitch-data wvdial ifupdown resolvconf nano sg3-utils net-tools
+RUN apt-get update && apt-get install -y usbutils usb-modeswitch usb-modeswitch-data wvdial ifupdown resolvconf nano
 
 ADD init.sh /init.sh
 
