@@ -11,12 +11,12 @@ echo "Running lsusb to show all connected USB PID/VID pairs"
 lsusb
 wvdialconf /etc/wvdial.conf
 
- ./wvdial_auto_reconnect.sh &
+#  ./wvdial_auto_reconnect.sh &
 
-# Add your application start code from this point onwards
+# # Add your application start code from this point onwards
 
-while :
-do
-	echo "Running..."
-	sleep 60
-done
+# while :
+# do
+# 	echo "Running..."
+# 	sleep 60
+# done
