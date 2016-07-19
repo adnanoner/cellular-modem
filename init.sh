@@ -2,10 +2,10 @@
 
 
 # Huawei
-#usb_modeswitch -v 12d1 -p 14fe --verbose -J
+usb_modeswitch -v 12d1 -p 14fe --verbose -J
 
 # ZTE
-usb_modeswitch -v 19d2 -p fff5 --verbose -K
+# usb_modeswitch -v 19d2 -p fff5 --verbose -K
 
 echo "Running lsusb to show all connected USB PID/VID pairs"
 lsusb
