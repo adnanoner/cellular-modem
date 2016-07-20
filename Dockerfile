@@ -10,6 +10,8 @@ ADD init.sh /init.sh
 
 ADD wvdial.conf /etc/wvdial.conf
 
+ADD 12d1-1f01 /etc/usb_modeswitch.d/12d1:1f01
+
 ADD wvdial_auto_reconnect.sh /wvdial_auto_reconnect.sh
 
 CMD /init.sh
