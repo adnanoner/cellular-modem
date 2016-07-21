@@ -8,8 +8,6 @@
 
 # USB mode
 usb_modeswitch -v 12d1 -p 1f01 -M '55534243123456780000000000000011062000000100000000000000000000'
-# ZTE
-# usb_modeswitch -v 19d2 -p fff5 --verbose -K
 
 echo "Running lsusb to show all connected USB PID/VID pairs"
 lsusb
